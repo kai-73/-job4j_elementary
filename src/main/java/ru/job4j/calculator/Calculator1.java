@@ -1,11 +1,11 @@
 package ru.job4j.calculator;
 
-public class Calculator1 {
+    public class Calculator1 {
 
-    public static void main(String[] args) {
-        int size = 10;
-        size = 100;
-        size -= 5;
-        System.out.println(size);
+        public static void main(String[] args) {
+            int size = 10;
+            size = 100;
+            size -= 5;
+            System.out.println(size);
+        }
     }
-}
