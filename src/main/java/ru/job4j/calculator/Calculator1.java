@@ -1,7 +1,7 @@
 package ru.job4j.calculator;
 
 public class Calculator1 {
-    @SuppressWarnings("checkstyle:WhitespaceAround")
+
     public static void main(String[] args) {
         int size = 10;
         size = 100;
