@@ -13,8 +13,8 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
-        System.out.print("Значения переменных: sixDivTwo = " + sixDivTwo + ", "
-                + "fiveMinusTwo = " + fiveMinusTwo + ", " + "fourTimeTwo = " + fourTimeTwo);
+        System.out.print("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + System.lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + System.lineSeparator() + "                     fourTimeTwo = " + fourTimeTwo
+                + ".");
 
     }
 }
