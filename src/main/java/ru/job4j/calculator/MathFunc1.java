@@ -5,6 +5,7 @@ public class MathFunc1 {
         int y = x * x + 1;
         return y;
     }
+    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static float func2(int x) {
         float y = 1 / x;
         return y;
