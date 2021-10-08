@@ -1,5 +1,5 @@
 package ru.job4j.calculator;
-// Вызов результатов вычисления метода
+
 public class MathFunc {
 
     public static int func1(int x) {
