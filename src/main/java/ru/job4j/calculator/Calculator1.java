@@ -1,7 +1,7 @@
 package ru.job4j.calculator;
 
     public class Calculator1 {
-// коммент22222
+// коммент
         public static void main(String[] args) {
             int size = 10;
             size = 100;
