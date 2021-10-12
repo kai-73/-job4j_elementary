@@ -1,22 +1,17 @@
 package ru.job4j.converter;
 
-import jdk.jshell.EvalException;
-
 public class Converter {
 
     public static float rubletoeuro(float value) {
-        float rsl = value / 70;
-        return (float) Math.round(rsl * 100) / 100;
+        return value / 70;
     }
 
     public static float rubletodollar(float value) {
-        float rsl = value / 60;
-        return (float) Math.round(rsl * 100) / 100;
+        return value / 60;
     }
 
     public static float dollartoeuro(float value) {
-        float rsl = value * 0.86F;
-        return (float) Math.round(rsl * 100) / 100;
+        return value * 0.86F;
     }
 
     public static void main(String[] args) {
