@@ -11,7 +11,7 @@ public class ConverterTest {
         }
 
         public static float dollartoeuro(float value1) {
-            return value1 * 0.86F;
+            return value1 * 0.86f;
         }
 
         public static void main(String[] args) {
