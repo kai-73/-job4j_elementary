@@ -9,11 +9,11 @@ public class MathCalculator {
     }
 
     public static double sumDifferensAndDivision(double first, double second) {
-        return differens(first, second) + division(first, second);
+        return differens(first,  second) + division(first, second);
     }
 
     public static double sumAll(double first, double second) {
-        return sum(first, second) + multiply(first, second)
+        return sum(first,  second) + multiply(first, second)
                 + differens(first, second) + division(first, second);
     }
 
