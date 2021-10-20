@@ -1,7 +1,5 @@
 package ru.job4j.calculator;
 
-import static java.lang.System.lineSeparator;
-
 public class Calculator {
 
     public static void main(String[] args) {
@@ -12,7 +10,7 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
-        System.out.println("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + lineSeparator() + "                     fourTimeTwo = " + fourTimeTwo
+        System.out.println("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + System.lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + System.lineSeparator() + "                     fourTimeTwo = " + fourTimeTwo
                 + ".");
 
     }
