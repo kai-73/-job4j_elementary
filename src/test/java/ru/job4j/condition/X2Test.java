@@ -23,7 +23,6 @@ public class X2Test {
 
     @Test
     public void whenA1B1C1X1Then3() {
-        /* Входные параметры. Их будет 4 для данного случая*/
         int  a = 1;
         int b = 1;
         int c = 1;
