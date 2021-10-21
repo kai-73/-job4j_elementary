@@ -10,8 +10,8 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
-        System.out.println("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + System.lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + System.lineSeparator() + "                     fourTimeTwo = " + fourTimeTwo
-                + ".");
+        System.out.println("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + System.lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + System.lineSeparator()
+                + "                     fourTimeTwo = " + fourTimeTwo + ".");
 
     }
 }
