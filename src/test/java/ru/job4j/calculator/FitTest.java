@@ -12,7 +12,6 @@ public class FitTest {
     short in = 180;
     double expected = 92;
     double out = manWeight(in);
-    /* Для эксперимента ввел переменнуую для параметра метода assertEquals */
     float delta = 0.01f;
     Assert.assertEquals(expected, out, delta);
     }
@@ -22,7 +21,6 @@ public class FitTest {
         short in = 170;
         double expected = 69;
         double out = womanWeight(in);
-        /* Здесь убрал эту переменную */
         Assert.assertEquals(expected, out, 0.01);
     }
 }
