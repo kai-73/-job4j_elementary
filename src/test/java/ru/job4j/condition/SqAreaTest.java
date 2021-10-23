@@ -3,8 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SqAreaTest {
 
     @Test
@@ -31,6 +29,6 @@ public class SqAreaTest {
         int p = 6;
         double k = 1;
         double expected = 2.25;
-        Assert.assertEquals(expected, (double) SqArea.sqarea(6, 1), 0.01);
+        Assert.assertEquals(expected, SqArea.sqarea(6, 1), 0.01);
     }
 }
