@@ -16,13 +16,13 @@ public class MaxTest {
 
     @Test
     public void whenMax5To10Then10() {
-        int result = Max.max(5, 10);
+        int result = Max.max(10, 5);
         int expected = 10;
         Assert.assertEquals(result, expected);
     }
 
     @Test
     public void whenMax6To7Then7() {
-        Assert.assertEquals(Max.max(6, 7), 7);
+        Assert.assertEquals(Max.max(7, 7), 7);
     }
 }
