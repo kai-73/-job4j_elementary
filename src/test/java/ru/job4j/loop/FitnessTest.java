@@ -35,7 +35,7 @@ public class FitnessTest {
 
     @Test
     public void whenIvan90EqualsNik90() {
-        int ivan = 90;
+        int ivan =  90;
         int nik = 90;
         int rsl = calc(ivan, nik);
         int expected = 0;
