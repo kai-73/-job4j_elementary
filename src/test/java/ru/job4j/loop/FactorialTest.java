@@ -13,9 +13,9 @@ public class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialFor7Then5040() {
-        int rsl = Factorial.calc(7);
-        int expected = 5040;
+    public void whenCalculateFactorialFor0Then1() {
+        int rsl = Factorial.calc(0);
+        int expected = 1;
         Assert.assertEquals(rsl, expected);
     }
 }
