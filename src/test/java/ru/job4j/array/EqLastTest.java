@@ -3,14 +3,13 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class EqLastTest {
     @Test
     public void whenEq() {
         int[] left = {1, 2, 3};
         int[] right = {5, 4, 3};
-        Assert.assertTrue(EqLast.check(left, right));
+        boolean rsl = EqLast.check(left, right);
+        Assert.assertTrue(rsl);
     }
 
     @Test
