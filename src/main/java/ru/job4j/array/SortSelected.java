@@ -12,12 +12,4 @@ public class SortSelected {
         }
         return data;
     }
-
-    public static void main(String[] args) {
-        int[] data = {4, 8, 3, 1, 2, };
-        int[] rsl = sort(data);
-        for (int i : rsl) {
-            System.out.println(i);
-        }
-    }
 }
