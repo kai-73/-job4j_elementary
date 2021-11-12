@@ -3,8 +3,6 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class MatrixChekTest {
 
     @Test
@@ -20,6 +18,18 @@ public class MatrixChekTest {
     }
 
     @Test
+    public void whenNotMonoHorizontal() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
+                {' ', ' ', ' '},
+        };
+        int row = 1;
+        boolean result = MatrixChek.monoHorizontal(input, row);
+        Assert.assertFalse(result);
+    }
+
+    @Test
     public void whenHasMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
@@ -29,6 +39,18 @@ public class MatrixChekTest {
         int column = 2;
         boolean result = MatrixChek.monoVertical(input, column);
         Assert.assertTrue(result);
+    }
+
+    @Test
+    public void whenHasMonoNoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', ' '},
+        };
+        int column = 2;
+        boolean result = MatrixChek.monoVertical(input, column);
+        Assert.assertFalse(result);
     }
 
     @Test
