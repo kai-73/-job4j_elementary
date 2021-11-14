@@ -1,8 +1,4 @@
 package ru.job4j.array;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
 import java.util.Arrays;
 
 public class Machine {
