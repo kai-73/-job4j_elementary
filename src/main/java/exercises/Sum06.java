@@ -1,6 +1,6 @@
 package exercises;
 
-public class Sum {
+public class Sum06 {
     public static int getSum(int[] array) {
         return array[0] + array[array.length - 1];
     }
