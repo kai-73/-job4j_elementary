@@ -1,6 +1,6 @@
 package exercises;
 
-public class UnionThreeArrays {
+public class UnionThreeArrays31 {
     public static int[] union(int[] left, int[] middle, int[] right) {
         int[] rsl = new int[right.length + 1];
         rsl[0] = left[0];
