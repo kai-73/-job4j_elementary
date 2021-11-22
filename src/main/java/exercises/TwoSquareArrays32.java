@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Arrays;
 
-public class TwoSquareArrays {
+public class TwoSquareArrays32 {
 
     public static int[] collectArray(int[][] left, int[][] right) {
         int[] rsl = new int[left.length * left[0].length];
