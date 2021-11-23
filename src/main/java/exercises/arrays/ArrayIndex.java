@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class ArrayIndex {
     public static int getFirstElement(int[] array) {

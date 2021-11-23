@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class UnionThreeArrays31 {
     public static int[] union(int[] left, int[] middle, int[] right) {

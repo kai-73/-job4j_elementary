@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class CheckSquareArray13 {
     public static boolean checkArray(int[][] array) {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class Sorted {
     public static boolean isSorted(int[] array) {

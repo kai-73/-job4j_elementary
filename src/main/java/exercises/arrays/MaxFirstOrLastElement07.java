@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class MaxFirstOrLastElement07 {
     public static int getMaxValue(int[] array) {

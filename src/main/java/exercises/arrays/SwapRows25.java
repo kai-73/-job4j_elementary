@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class SwapRows25 {
     public static void swap(int[][] data, int src, int dst) {

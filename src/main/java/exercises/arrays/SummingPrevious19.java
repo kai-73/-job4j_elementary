@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class SummingPrevious19 {
     public static int[] calculate(int a, int b, int n) {

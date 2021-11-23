@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class Sum06 {
     public static int getSum(int[] array) {

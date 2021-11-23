@@ -1,11 +1,12 @@
-package exercises;
+package exercises.arrays;
 
-public class EvenPrint22 {
+public class OddPrint21 {
+
     public static void print(int[] array) {
+
         for (int i = 0; i < array.length; i++) {
-            int j = array.length - 1 - i; //индексы элементов, начиная с последнег
-            if (array[j] % 2 == 0) {
-                System.out.println(array[j]);
+            if (array[i] % 2 != 0) {
+                System.out.println(array[i] + " ");
             }
         }
     }
@@ -14,5 +15,4 @@ public class EvenPrint22 {
         int[] array = {1, 2, 5, 8, 9, 10, 13};
         print(array);
     }
-
 }

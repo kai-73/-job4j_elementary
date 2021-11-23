@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class Transposition18 {
     public static int[][] convert(int[][] matrix) {

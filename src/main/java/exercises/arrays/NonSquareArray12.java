@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class NonSquareArray12 {
     public static void main(String[] args) {

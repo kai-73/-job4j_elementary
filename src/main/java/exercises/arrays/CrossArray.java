@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class CrossArray {
     public static void printCrossEl(int[] left, int[] right) {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class ConcatArray {
     public static int combineSize(int[] a, int[] b) {

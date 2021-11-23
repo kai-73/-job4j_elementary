@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class LoopForBoard15 {
     public static void main(String[] args) {

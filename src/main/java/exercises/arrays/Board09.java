@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class Board09 {
         public static int getCountRow(int[][] array) {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class SquareArray11 {
     public static void main(String[] args) {

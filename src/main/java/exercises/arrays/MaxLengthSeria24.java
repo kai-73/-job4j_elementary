@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class MaxLengthSeria24 {
     public static int find(int[] array) {

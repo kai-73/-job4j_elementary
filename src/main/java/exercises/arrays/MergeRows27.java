@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class MergeRows27 {
     public static int[] merge(int[][] data) {

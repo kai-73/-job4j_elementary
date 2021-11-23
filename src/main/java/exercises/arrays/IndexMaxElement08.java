@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class IndexMaxElement08 {
     public static int getIndexMax(int[] array) {

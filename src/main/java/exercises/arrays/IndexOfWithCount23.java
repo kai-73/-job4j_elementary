@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class IndexOfWithCount23 {
     public static int indexOf(char[] string, char c, int number) {

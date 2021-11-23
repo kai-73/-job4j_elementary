@@ -1,4 +1,4 @@
-package exercises;
+package exercises.arrays;
 
 public class RightDiagonal28 {
     public static int[] diagonal(int[][] data) {
