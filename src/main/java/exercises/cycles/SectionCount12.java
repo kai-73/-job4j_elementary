@@ -13,10 +13,10 @@ package exercises.cycles;
  * Для length = 3, section = 2 => 1
  */
 public class SectionCount12 {
-    public static int count(int legth, int section) {
+    public static int count(int length, int section) {
         int rsl = section;
         int count = 0;
-        while (rsl <= legth) {
+        while (rsl <= length) {
             rsl += section;
             count++;
         }
@@ -28,3 +28,5 @@ public class SectionCount12 {
         System.out.println(count(a, b));
     }
 }
+//public static int count(int length, int section) {
+//        return length/section;
