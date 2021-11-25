@@ -22,4 +22,8 @@ public class Abbreviation18 {
         }
         return str.toString();
     }
+
+    public static void main(String[] args) {
+        System.out.println(collect("Ура Ура Я Закончил упражнения по Циклам"));
+    }
 }
