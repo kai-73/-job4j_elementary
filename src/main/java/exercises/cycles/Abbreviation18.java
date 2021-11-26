@@ -18,12 +18,12 @@ public class Abbreviation18 {
         String[] words = s.split(" ");
         StringBuilder str = new StringBuilder("");
         for (int i = 0; i < words.length; i++) {
-            str.append(words[i].charAt(0));
+            s = str.append(words[i].charAt(0)).toString();
         }
-        return str.toString();
+        return s;
     }
 
     public static void main(String[] args) {
-        System.out.println(collect("Ура Ура Я Закончил упражнения по Циклам"));
+        System.out.println(collect("Я Много Очень Ленился Однако Достиг Естественно Цели"));
     }
 }
