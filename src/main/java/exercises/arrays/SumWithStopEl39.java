@@ -20,10 +20,7 @@ public class SumWithStopEl39 {
         for (int i = 0; i < rsl.length; i++) {
            sum += rsl[i];
         }
-        if (sum % 2 != 0) {
-            return 0;
-        }
-        return sum;
+        return sum % 2 == 0 ? sum : 0;
     }
 
     public static void main(String[] args) {
@@ -31,3 +28,12 @@ public class SumWithStopEl39 {
         System.out.println(count(data, 5));
     }
 }
+/*      int sum = 0;
+        for (int n : data) {
+                if (n == el) break;
+                sum += n;
+
+                }
+                return sum % 2 == 0 ? sum : 0;
+
+*/
