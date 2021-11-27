@@ -1,4 +1,4 @@
-package exercises.arrays;
+package exercises.cycles;
 
 /**
  * Данная программа - используется для практики с методами String
