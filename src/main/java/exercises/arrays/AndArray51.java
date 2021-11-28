@@ -16,10 +16,10 @@ public class AndArray51 {
         //int arrayLength = Math.max(left.length, right.length);
         int[] array = new int[Math.max(left.length, right.length)];
         int count = 0;
-        for (int i = 0; i < left.length; i++) {
-            for (int j = 0; j < right.length; j++) {
-                if (left[i] == right[j]) {
-                    array[count++] = right[j];
+        for (int k : left) {
+            for (int i : right) {
+                if (k == i) {
+                    array[count++] = i;
                 }
             }
         }
