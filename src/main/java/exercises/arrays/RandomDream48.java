@@ -33,4 +33,14 @@ public class RandomDream48 {
         }
        return prizes[num - 1];
     }
+    другой вариант
+
+  public static String random(String[] prizes, int num) {
+     int remainder = num % prizes.length;
+     int index = remainder > 0 ? remainder - 1 : prizes.length - 1;
+     return prizes[index];
+
+
+
+
  */
