@@ -1,5 +1,9 @@
 package exercises.merge;
 
+/**
+ * Объединение от JOB4J
+ */
+
 public class Merge02 {
 
     public static int[] merge(int[] left, int[] right) {
