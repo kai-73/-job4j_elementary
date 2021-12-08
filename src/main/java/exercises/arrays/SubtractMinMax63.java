@@ -14,12 +14,12 @@ package exercises.arrays;
 public class SubtractMinMax63 {
     public static int calculate(int[] ints) {
         int max = ints[0], min = ints[0];
-        for (int i = 0; i < ints.length; i++) {
-            if (max < ints[i]) {
-                max = ints[i];
+        for (int anInt : ints) {
+            if (max < anInt) {
+                max = anInt;
             }
-            if (min > ints[i]) {
-                min = ints[i];
+            if (min > anInt) {
+                min = anInt;
             }
         }
         return max - min;
