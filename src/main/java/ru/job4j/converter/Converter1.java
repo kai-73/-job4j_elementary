@@ -1,7 +1,6 @@
 package ru.job4j.converter;
 
 public class Converter1 {
-
     public static float rubletoeuro(float value1) {
         return value1 / 70;
     }

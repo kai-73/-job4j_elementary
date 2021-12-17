@@ -10,10 +10,8 @@ public class Calculator {
         int div = six / two;
         int minus = five - two;
         int time = four * two;
-
         System.out.println("Значения переменных: div = " + div + ";" + System.lineSeparator() + "                     minus = " + minus + ";" + System.lineSeparator()
                 + "                     time = " + time + ".");
-
     }
 }
 

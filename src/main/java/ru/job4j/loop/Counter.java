@@ -1,7 +1,6 @@
 package ru.job4j.loop;
 
 public class Counter {
-
     public static int sum(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
@@ -12,7 +11,6 @@ public class Counter {
 
     public static int sumByEven(int start, int finish) {
         int sum = 0;
-
         for (int i = start; i <= finish; i++) {
             if (i % 2 == 0) {
                 sum += i;
@@ -29,7 +27,6 @@ public class Counter {
         System.out.println(sum(4, 9));
         System.out.println(sum(2, 7));
         System.out.println();
-
         System.out.println(sumByEven(6, 21));
         System.out.println(sumByEven(3, 10));
         System.out.println(sumByEven(6, 17));

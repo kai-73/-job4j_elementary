@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class IfElseReturn1 {
-
     public static boolean greatThen(int first, int second) {
         boolean compare = first > second;
         return compare;
