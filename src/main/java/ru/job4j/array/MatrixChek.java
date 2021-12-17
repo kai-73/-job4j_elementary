@@ -12,7 +12,7 @@ public class MatrixChek {
 
     public static boolean monoVertical(char[][] board, int columm) {
         for (int i = 0; i < board[columm].length; i++) {
-            if (board[i][columm] != 'X')  {
+            if (board[i][columm] != 'X') {
                 return false;
             }
         }

@@ -1,6 +1,6 @@
 package ru.job4j.array;
-public class
-ArrayDefiniotion {
+
+public class ArrayDefiniotion {
 
     public static void main(String[] args) {
         int[] ages = new int[10];
@@ -9,7 +9,6 @@ ArrayDefiniotion {
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива surnames равен: " + surnames.length);
         System.out.println("Размер массива prices равен: " + prices.length);
-
         String[] names = new String[4];
         names[0] = "Iya";
         names[1] = "Oleg";

@@ -7,11 +7,12 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
-        int sixDivTwo = six / two;
-        int fiveMinusTwo = five - two;
-        int fourTimeTwo = four * two;
-        System.out.println("Значения переменных: sixDivTwo = " + sixDivTwo + ";" + System.lineSeparator() + "                     fiveMinusTwo = " + fiveMinusTwo + ";" + System.lineSeparator()
-                + "                     fourTimeTwo = " + fourTimeTwo + ".");
+        int div = six / two;
+        int minus = five - two;
+        int time = four * two;
+        System.out.println("Значения переменных: div = " + div + ";" + System.lineSeparator() + "                     minus = " + minus + ";" + System.lineSeparator()
+                + "                     time = " + time + ".");
 
     }
 }
+
