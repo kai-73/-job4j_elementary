@@ -18,7 +18,6 @@ public class Converter {
         float euro = Converter.rubleToEuro(value1);
         float dollar = Converter.rubleToDollar(140);
         float dollartoeuro = Converter.dollarToEuro(euro);
-
         System.out.println("Exchange " + value1 + " Rub as " + euro + " Euro");
         System.out.println("Exchange " + value1 + " Rub as " + dollar + " Dollar");
         System.out.println("Exchange " + dollar + " Dollar as " + dollartoeuro + " Euro");

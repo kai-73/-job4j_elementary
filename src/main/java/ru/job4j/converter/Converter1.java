@@ -21,19 +21,16 @@ public class Converter1 {
         System.out.println("Exchange " + value1 + " Rub as " + euro + " Euro");
         System.out.println("Exchange " + value1 + " Rub as " + dollar + " Dollar");
         System.out.println("Exchange " + dollar + " Dollar as " + dollartoeuro + " Euro");
-
         float in = 140;
         float expected = 2;
         float out = Converter1.rubletoeuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are 2 euro. Test result: " + passed);
-
         float in1 = 240;
         float expected1 = 4;
         float out1 = Converter1.rubletodollar(in1);
         boolean passed1 = expected1 == out1;
         System.out.println("240 rubles are 4 dollars. Test result: " + passed1);
-
         float in2 = 1;
         float expected2 = 0.86f;
         float out2 = Converter1.dollartoeuro(in2);

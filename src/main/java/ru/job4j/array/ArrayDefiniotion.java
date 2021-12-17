@@ -1,7 +1,6 @@
 package ru.job4j.array;
 
 public class ArrayDefiniotion {
-
     public static void main(String[] args) {
         int[] ages = new int[10];
         String[] surnames = new String[100500];
