@@ -9,6 +9,7 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int remainder = money - price;
+
         if (remainder != 0) {
             for (int coin : coins) {
                 while (remainder >= coin) {
