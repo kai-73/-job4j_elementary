@@ -7,7 +7,7 @@ public class TrgArea {
     }
 
     public static void main(String[] args) {
-        double result = TrgArea.trgarea(2, 2, 2);
+        double result = trgarea(2, 2, 2);
         System.out.println("Area of triangle (2, 2, 2) = " + result);
     }
 }
